@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>register</title>
+</head>
+<body>
+	<h1>Register</h1>
+<form>
+	<label for="first">First name:</label>
+	<input  id="first" type="text" placeholder="Firstname"required>
+	<label for="last">Last name:</label>
+	 <input id="last" type="text" placeholder="Last name"required>
+	 <div>
+	 	<label for="Male">Male</label>
+	 	<input id="Male" type="radio" name="gender" value="male">
+	 	<label for="Female">Female</label>
+	 	<input id="Female" type="radio" name="gender" value="female">
+	 	<label for="Others">Others</label>
+	 	<input id="Others" type="radio" name="gender" value="other"> 
+	 </div>
+	 <div>
+	 	<label>
+	 		Email:
+	 		<input type="email" name="email" placeholder="Email" required>
+	 	</label>
+	 	<label>
+	 		Password:
+	 		<input type="Password" name="Password" pattern=".{5,10}" required title="5 to 10 characters" >
+	 	</label>
+	 </div>
+	 <data>
+	 	<label>
+	 		Birthday:
+	 		<select name="month">
+	 			<option>month</option>
+	 			<option>jan</option>
+	 			<option>feb</option>
+	 			<option>mar</option>
+	 		</select>
+	 		<select month="day">
+	 			<option>day</option>
+	 			<option>10</option>
+	 			<option>11</option>
+	 			<option>12</option>
+
+	 		</select>
+	 		<select month="year">
+	 			<option>1999</option>
+	 			<option>2000</option>
+	 			<option>2001</option>
+	 			
+	 		</select>
+	 	</label>
+	 	<div>
+	 		<label for="agreed">I agree to the terms and condition</label>
+	 		<input id="agreed" type="checkbox" name="agreed">
+	 	</div>
+	 </data>
+	 <input type="submit" >
+</form>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+h1{
+	color: purple;
+	border: 2px solid white;
+}
+li{
+	color: gold;
+}
+h2{
+	color: green;
+}
+h3{
+	color: blue
+}
+h2{background:rgb(100,0,234);
+}
+body{
+	background: url(https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg);
+}
+p{color:white;
+}
